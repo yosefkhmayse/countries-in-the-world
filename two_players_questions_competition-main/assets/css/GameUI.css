@@ -1,0 +1,251 @@
+.header {
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cursive;
+}
+
+.footer {
+    height: 70px;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.div {
+    width: 100%;
+    margin: auto;
+    height: 950px;
+ background-image:linear-gradient(to right ,green,red) ;
+}
+
+a.header {
+    background-color: lightgray;
+}
+
+.section {
+    display: flex;
+}
+
+.articleright {
+    width: 20%;
+    height: 800px;
+    background-color:red;
+}
+
+.article {
+    width: 20%;
+    height: 800px;
+    background-color:green;
+}
+
+#middle {
+    width: 60%;
+    background-image:linear-gradient(to right ,green,red) ;
+    background-size: 100%;
+    /*background-image: url(2905712.jpg);*/
+    background-repeat: no-repeat;
+    color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+#answers {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+
+
+.question {
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.option1 {
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 70px;
+    display: inline-block;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.option2 {
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 70px;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.option3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 70px;
+    display: inline-block;
+    background-color:green;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.option4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 70px;
+    display: inline-block;
+    background-color:yellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.player1 {
+    height: 30px;
+    width: auto;
+    padding: 15px;
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player2 {
+    /*float: right;*/
+    height: 30px;
+    /*width: 277px;*/
+    width: auto;
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fonts {
+font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    min-height: 98vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.button {
+    position: relative;
+    border-radius: 4px;
+    border: 2px solid white;
+    padding: 15px 30px;
+    color: white;
+    background: rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    cursor: pointer;
+    user-select: none;
+    transition: all .3s;
+}
+
+.badge, .badge2 {
+    transform: scale(1.2);
+    font-size: 18px;
+}
+
+.badge {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    background: red;
+    border: 2px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: -15px;
+    right: 100px;
+    transition: all .3s;
+}
+
+.badge2 {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: blue;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -15px;
+    right: 20px;
+    transition: all .3s;
+}
+
+.badge3 {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -15px;
+    right: 70px;
+    transition: all .3s;
+}

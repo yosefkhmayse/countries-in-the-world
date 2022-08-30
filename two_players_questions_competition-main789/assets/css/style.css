@@ -1,0 +1,158 @@
+body {
+    background: #b9ebff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.opt-btn {
+    border: none;
+    color: white;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+.opt1-btn {
+    background: rgb(253, 12, 141);
+}
+
+.opt2-btn {
+    background: #bbbb00;
+}
+
+.opt3-btn {
+    background: blue;
+}
+
+.opt4-btn {
+    background: green;
+}
+
+.btn:hover {
+    background: #025d02;
+}
+
+.btn:disabled {
+    background: #c2c2c2;
+    cursor: default;
+}
+
+.input {
+    border-radius: 25px;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-overlay {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+    /*opacity: 0.5;*/
+    transition: opacity .5s;
+    /*z-index: 5000;*/
+    display: flex;
+    border-radius: 100px;
+    align-items: end;
+    justify-content: center;
+    color: black;
+}

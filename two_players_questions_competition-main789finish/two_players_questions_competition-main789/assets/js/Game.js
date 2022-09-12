@@ -3,9 +3,10 @@ let game_started = false
 let game_one_over = false
 let accept_answers = false
 let game_one_winner_player_id
-const show_badges = true
+const show_badges = true /////////// f/g/b. . . . on/of
 
 function actually_start_game() {
+    shuffleArray("1");
     set_player_text_names()
     const current_question_id = questions_data['current_question_id']
     load_next_question(current_question_id)
@@ -164,9 +165,14 @@ document.addEventListener("keydown", function(event) {
             check_if_correct_answer_g2(1)
         }
         else {
-            unmark_chosen_question(player_pressed['target_answer'])
-            mark_chosen_question(player_pressed['target_answer'])
-            
+            // Check if answer has been checked
+            const is_checked = document.getElementById(`answer_${player_pressed['target_answer']}_overlay`).getAttribute('checked')
+            if (is_checked === 'false') {
+                mark_chosen_question(player_pressed['target_answer'])
+            }
+            else {
+                unmark_chosen_question(player_pressed['target_answer'])
+            }
         }
     }
 
